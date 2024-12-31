@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmployeeMangmentService.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20241231102050_AddEmployeeTable")]
-    partial class AddEmployeeTable
+    [Migration("20241231110100_UpdateEmployeeTable")]
+    partial class UpdateEmployeeTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

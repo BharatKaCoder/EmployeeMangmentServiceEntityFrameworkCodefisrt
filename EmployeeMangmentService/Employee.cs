@@ -13,6 +13,9 @@ namespace EmployeeMangmentService
         public string Gender { get; set; }
         public float Experience { get; set; }
         public int Salary { get; set; }
+
+        public string DepartmentId { get; set; }
+        [ForeignKey("DepartmentId")]
         public Department Department { get; set; }
         public DateTime CreatedAt { get; set; }
 

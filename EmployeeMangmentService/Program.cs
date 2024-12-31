@@ -11,7 +11,7 @@ namespace EmployeeMangmentService
 
             // Add services to the container.
 
-            builder.Services.AddDbContext<EmployeeDbContext>(option =>
+            builder.Services.AddDbContext<ApplicationDbContext>(option =>
             {
                 option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultSQLConnection"));
             });

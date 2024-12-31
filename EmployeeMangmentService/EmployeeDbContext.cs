@@ -2,9 +2,9 @@
 
 namespace EmployeeMangmentService
 {
-    public class EmployeeDbContext : DbContext
+    public class ApplicationDbContext : DbContext
     {
-        public EmployeeDbContext(DbContextOptions<EmployeeDbContext> options) : 
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : 
             base(options)
         {
 
